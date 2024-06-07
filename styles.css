@@ -95,6 +95,8 @@ body {
 }
 #welcome-screen {
   background-image: url(assests/beach-new.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 path {
   stroke: #fff !important;
