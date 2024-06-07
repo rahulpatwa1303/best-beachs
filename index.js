@@ -201,7 +201,7 @@ document.addEventListener("DOMContentLoaded", () => {
       starContainer.className = "star-rating";
       //   starContainer.textContent= rating
       const ratingTextNode = document.createElement("span");
-      ratingTextNode.textContent = rating;
+      ratingTextNode.textContent = '';
       ratingTextNode.style.marginRight = "6px";
       starContainer.appendChild(ratingTextNode);
 
