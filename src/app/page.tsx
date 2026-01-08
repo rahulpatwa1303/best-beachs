@@ -94,7 +94,7 @@ export default async function Home({
       {/* Footer (Simple) */}
       <footer className="mt-12 border-t bg-slate-50 dark:bg-slate-950 dark:border-slate-800 py-12">
         <div className="container mx-auto px-4 text-center text-sm text-slate-500 dark:text-slate-400">
-          <p>© 2026 BeachSeeker. Minimalist & Elegant.</p>
+          <p>© 2026 BeachSeeker.</p>
         </div>
       </footer>
     </div>
