@@ -1,0 +1,1457 @@
+{
+  "metadata": {
+    "generatedAt": "2026-01-08T14:15:00.000Z",
+    "totalBeaches": 30,
+    "errors": 0,
+    "tone": "poetic",
+    "dataEnhanced": true,
+    "version": "2.1"
+  },
+  "beaches": [
+    {
+      "id": "bondi-beach",
+      "name": "Bondi Beach",
+      "country": "Australia",
+      "region": "New South Wales",
+      "coordinates": {
+        "lat": -33.8923133,
+        "lon": 151.2753137
+      },
+      "photos": [
+        {
+          "url": "https://images.unsplash.com/photo-1689323679702-7d475c0f43be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxCb25kaSUyMEJlYWNoJTIwYmVhY2h8ZW58MHwwfHx8MTc2Nzg1OTY0N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+          "thumbnail": "https://images.unsplash.com/photo-1689323679702-7d475c0f43be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxCb25kaSUyMEJlYWNoJTIwYmVhY2h8ZW58MHwwfHx8MTc2Nzg1OTY0N3ww&ixlib=rb-4.1.0&q=80&w=400",
+          "photographer": "Divya Wang",
+          "photographerUrl": "https://unsplash.com/@divya675367"
+        }
+      ],
+      "description": "Australia's most iconic crescent of sand, where urban energy meets rolling Pacific swells. The legendary Icebergs pool stands sentinel at the southern tip, offering a stunning contrast of man-made structure against the wild, azure ocean.",
+      "shortDescription": "Sydney's legendary surf and lifestyle hub.",
+      "vibes": [
+        "cosmopolitan",
+        "energetic",
+        "iconic",
+        "sporty"
+      ],
+      "bestMonths": [
+        12,
+        1,
+        2,
+        3
+      ],
+      "activities": [
+        "surfing",
+        "coastal walking",
+        "ocean pool swimming",
+        "skateboarding",
+        "people watching"
+      ],
+      "facilities": [
+        "ocean pools",
+        "skate park",
+        "surf lifesaving club",
+        "showers",
+        "beachside cafes"
+      ],
+      "crowdLevel": "high",
+      "accessibility": "easy",
+      "entryFee": "free",
+      "fetchedAt": "2026-01-08T14:15:00.000Z"
+    },
+    {
+      "id": "maldives",
+      "name": "Maldives (Atolls)",
+      "country": "Maldives",
+      "region": "Indian Ocean",
+      "coordinates": {
+        "lat": 3.2028,
+        "lon": 73.2207
+      },
+      "photos": [
+        {
+          "url": "https://images.unsplash.com/photo-1622779536320-bb5f5b501a06?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxNYWxkaXZlcyUyMGJlYWNofGVufDB8MHx8fDE3Njc4NTk2NDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "thumbnail": "https://images.unsplash.com/photo-1622779536320-bb5f5b501a06?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxNYWxkaXZlcyUyMGJlYWNofGVufDB8MHx8fDE3Njc4NTk2NDl8MA&ixlib=rb-4.1.0&q=80&w=400",
+          "photographer": "Matheen Faiz",
+          "photographerUrl": "https://unsplash.com/@matheenfaiz"
+        }
+      ],
+      "description": "A garland of islands scattered across the Indian Ocean, offering the ultimate castaway fantasy. Here, the water is so clear it looks like liquid glass, and overwater bungalows provide a front-row seat to an underwater world of vibrant coral and marine life.",
+      "shortDescription": "The quintessential luxury island escape.",
+      "vibes": [
+        "luxury",
+        "romantic",
+        "secluded",
+        "ethereal"
+      ],
+      "bestMonths": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "activities": [
+        "scuba diving",
+        "snorkeling with manta rays",
+        "sunset cruising",
+        "spa treatments",
+        "star gazing"
+      ],
+      "facilities": [
+        "private butlers",
+        "dive centers",
+        "overwater spas",
+        "fine dining"
+      ],
+      "crowdLevel": "low",
+      "accessibility": "moderate",
+      "entryFee": "resort guests only",
+      "fetchedAt": "2026-01-08T14:15:00.000Z"
+    },
+    {
+      "id": "bora-bora",
+      "name": "Bora Bora",
+      "country": "French Polynesia",
+      "region": "Leeward Islands",
+      "coordinates": {
+        "lat": -16.5004,
+        "lon": -151.7415
+      },
+      "photos": [
+        {
+          "url": "https://images.unsplash.com/photo-1738692620766-6eee174e32a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxCb3JhJTIwQm9yYSUyMGJlYWNofGVufDB8MHx8fDE3Njc4NTk2NTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "thumbnail": "https://images.unsplash.com/photo-1738692620766-6eee174e32a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxCb3JhJTIwQm9yYSUyMGJlYWNofGVufDB8MHx8fDE3Njc4NTk2NTB8MA&ixlib=rb-4.1.0&q=80&w=400",
+          "photographer": "Frugal Flyer",
+          "photographerUrl": "https://unsplash.com/@frugalflyer"
+        }
+      ],
+      "description": "Known as the Pearl of the Pacific, this lagoon features every shade of blue imaginable, guarded by the dramatic peak of Mount Otemanu. It is a place of hypnotic beauty where shallow sandbars meet deep indigo channels.",
+      "shortDescription": "A world-famous lagoon of neon blue water.",
+      "vibes": [
+        "honeymoon",
+        "exclusive",
+        "tranquil",
+        "exotic"
+      ],
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "activities": [
+        "shark and ray feeding",
+        "lagoon tours",
+        "jet skiing",
+        "paddleboarding",
+        "helicopter tours"
+      ],
+      "facilities": [
+        "luxury resorts",
+        "boat shuttles",
+        "private decks",
+        "concierge services"
+      ],
+      "crowdLevel": "low",
+      "accessibility": "moderate",
+      "entryFee": "free",
+      "fetchedAt": "2026-01-08T14:15:00.000Z"
+    },
+    {
+      "id": "copacabana-beach",
+      "name": "Copacabana Beach",
+      "country": "Brazil",
+      "region": "Rio de Janeiro",
+      "coordinates": {
+        "lat": -22.9757003,
+        "lon": -43.1866161
+      },
+      "photos": [
+        {
+          "url": "https://images.unsplash.com/photo-1729216588205-edf313b06159?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxDb3BhY2FiYW5hJTIwQmVhY2glMjBiZWFjaHxlbnwwfDB8fHwxNzY3ODU5NjUyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "thumbnail": "https://images.unsplash.com/photo-1729216588205-edf313b06159?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxDb3BhY2FiYW5hJTIwQmVhY2glMjBiZWFjaHxlbnwwfDB8fHwxNzY3ODU5NjUyfDA&ixlib=rb-4.1.0&q=80&w=400",
+          "photographer": "WILLIAN REIS",
+          "photographerUrl": "https://unsplash.com/@wriopomba"
+        }
+      ],
+      "description": "A vibrating pulse of Carioca culture, defined by its mosaic boardwalk and Sugarloaf Mountain backdrop. This is where the city comes to play, a theater of life filled with football, samba, and sun-worshippers stretching for 4 kilometers.",
+      "shortDescription": "The world's most famous urban beach party.",
+      "vibes": [
+        "vibrant",
+        "festive",
+        "urban",
+        "crowded"
+      ],
+      "bestMonths": [
+        12,
+        1,
+        2,
+        3
+      ],
+      "activities": [
+        "beach soccer",
+        "frescobol",
+        "drinking caipirinhas",
+        "sunbathing",
+        "jogging"
+      ],
+      "facilities": [
+        "kiosks",
+        "beach service",
+        "outdoor gyms",
+        "showers",
+        "lifeguards"
+      ],
+      "crowdLevel": "very high",
+      "accessibility": "easy",
+      "entryFee": "free",
+      "fetchedAt": "2026-01-08T14:15:00.000Z"
+    },
+    {
+      "id": "maya-bay",
+      "name": "Maya Bay",
+      "country": "Thailand",
+      "region": "Krabi Province",
+      "coordinates": {
+        "lat": 7.6756,
+        "lon": 98.7675
+      },
+      "photos": [
+        {
+          "url": "https://images.unsplash.com/photo-1729718109845-e56125b9fd76?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxNYXlhJTIwQmF5JTIwYmVhY2h8ZW58MHwwfHx8MTc2Nzg1OTY1M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+          "thumbnail": "https://images.unsplash.com/photo-1729718109845-e56125b9fd76?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxNYXlhJTIwQmF5JTIwYmVhY2h8ZW58MHwwfHx8MTc2Nzg1OTY1M3ww&ixlib=rb-4.1.0&q=80&w=400",
+          "photographer": "Antonio Araujo",
+          "photographerUrl": "https://unsplash.com/@antonioaaaraujo"
+        }
+      ],
+      "description": "Encircled by towering limestone cliffs, this sheltered bay is a masterpiece of nature made famous by 'The Beach'. After extensive rehabilitation, its waters are once again crystal clear and teeming with baby sharks, though swimming is now strictly regulated to protect the coral.",
+      "shortDescription": "The cinematic paradise enclosed by limestone cliffs.",
+      "vibes": [
+        "scenic",
+        "regulated",
+        "cinematic",
+        "protected"
+      ],
+      "bestMonths": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "activities": [
+        "sightseeing",
+        "photography",
+        "wading (no swimming)",
+        "walking the nature trail"
+      ],
+      "facilities": [
+        "floating pier",
+        "restrooms",
+        "boardwalks"
+      ],
+      "crowdLevel": "high",
+      "accessibility": "moderate",
+      "entryFee": "paid (National Park fee)",
+      "fetchedAt": "2026-01-08T14:15:00.000Z"
+    },
+    {
+      "id": "whitehaven-2",
+      "name": "Whitehaven Beach",
+      "country": "Australia",
+      "region": "Whitsundays",
+      "coordinates": {
+        "lat": -20.2764129,
+        "lon": 149.0352464
+      },
+      "photos": [
+        {
+          "url": "https://images.unsplash.com/photo-1561027104-aa69b72a7174?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxXaGl0ZWhhdmVuJTIwQmVhY2glMjBiZWFjaHxlbnwwfDB8fHwxNzY3ODU5NjU1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "thumbnail": "https://images.unsplash.com/photo-1561027104-aa69b72a7174?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxXaGl0ZWhhdmVuJTIwQmVhY2glMjBiZWFjaHxlbnwwfDB8fHwxNzY3ODU5NjU1fDA&ixlib=rb-4.1.0&q=80&w=400",
+          "photographer": "Zhimai Zhang",
+          "photographerUrl": "https://unsplash.com/@zhimaii"
+        }
+      ],
+      "description": "Seven kilometers of blindingly white silica sand that never gets hot to the touch. The Hill Inlet at the northern end creates a mesmerizing fusion of colors as the tide shifts, swirling the sand and turquoise water into a living painting.",
+      "shortDescription": "Swirling silica sands and turquoise waters.",
+      "vibes": [
+        "pristine",
+        "untouched",
+        "breathtaking",
+        "natural"
+      ],
+      "bestMonths": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "activities": [
+        "bushwalking to lookout",
+        "swimming",
+        "picnicking",
+        "seaplane tours"
+      ],
+      "facilities": [
+        "composting toilets",
+        "picnic tables",
+        "camping grounds"
+      ],
+      "crowdLevel": "moderate",
+      "accessibility": "boat or air only",
+      "entryFee": "free (tour costs apply)",
+      "fetchedAt": "2026-01-08T14:15:00.000Z"
+    },
+    {
+      "id": "anse-source-d-argent",
+      "name": "Anse Source d'Argent",
+      "country": "Seychelles",
+      "region": "La Digue",
+      "coordinates": {
+        "lat": -4.3674741,
+        "lon": 55.8264732
+      },
+      "photos": [
+        {
+          "url": "https://images.unsplash.com/photo-1693260739769-0d47f85385b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxBbnNlJTIwU291cmNlJTIwZCUyN0FyZ2VudCUyMGJlYWNofGVufDB8MHx8fDE3Njc4NTk2NTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "thumbnail": "https://images.unsplash.com/photo-1693260739769-0d47f85385b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxBbnNlJTIwU291cmNlJTIwZCUyN0FyZ2VudCUyMGJlYWNofGVufDB8MHx8fDE3Njc4NTk2NTd8MA&ixlib=rb-4.1.0&q=80&w=400",
+          "photographer": "Philipp",
+          "photographerUrl": "https://unsplash.com/@picture_scape"
+        }
+      ],
+      "description": "A surreal landscape of giant, sculpted granite boulders scattered across shallow turquoise water and pinkish sand. This beach feels prehistoric and secluded, protected by a reef that keeps the waters calm and glass-like.",
+      "shortDescription": "Granite boulders meet shallow turquoise lagoons.",
+      "vibes": [
+        "photogenic",
+        "prehistoric",
+        "romantic",
+        "calm"
+      ],
+      "bestMonths": [
+        4,
+        5,
+        10,
+        11
+      ],
+      "activities": [
+        "snorkeling",
+        "transparent kayaking",
+        "photography",
+        "wading"
+      ],
+      "facilities": [
+        "fruit stands",
+        "nearby restrooms",
+        "plantation access"
+      ],
+      "crowdLevel": "moderate",
+      "accessibility": "easy (via L'Union Estate)",
+      "entryFee": "paid (L'Union Estate fee)",
+      "fetchedAt": "2026-01-08T14:15:00.000Z"
+    },
+    {
+      "id": "navagio-beach",
+      "name": "Navagio Beach (Shipwreck)",
+      "country": "Greece",
+      "region": "Zakynthos",
+      "coordinates": {
+        "lat": 37.8595454,
+        "lon": 20.624936
+      },
+      "photos": [
+        {
+          "url": "https://images.unsplash.com/photo-1571021785662-712e369a2829?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxOYXZhZ2lvJTIwQmVhY2glMjBiZWFjaHxlbnwwfDB8fHwxNzY3ODU5NjU5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "thumbnail": "https://images.unsplash.com/photo-1571021785662-712e369a2829?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxOYXZhZ2lvJTIwQmVhY2glMjBiZWFjaHxlbnwwfDB8fHwxNzY3ODU5NjU5fDA&ixlib=rb-4.1.0&q=80&w=400",
+          "photographer": "Andrey Shevard",
+          "photographerUrl": "https://unsplash.com/@andreyshevard"
+        }
+      ],
+      "description": "A dramatic cove enclosed by sheer white cliffs, home to the rusting hull of the MV Panagiotis. The electric blue water contrasts sharply with the white pebbles, creating one of the most photographed vistas in the Mediterranean.",
+      "shortDescription": "Dramatic cliffs guarding a famous shipwreck.",
+      "vibes": [
+        "dramatic",
+        "iconic",
+        "wild",
+        "inaccessible"
+      ],
+      "bestMonths": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "activities": [
+        "boat tours",
+        "photography from cliffs",
+        "sightseeing"
+      ],
+      "facilities": [
+        "none"
+      ],
+      "crowdLevel": "high (boats)",
+      "accessibility": "boat only (landing restricted)",
+      "entryFee": "free (boat costs apply)",
+      "fetchedAt": "2026-01-08T14:15:00.000Z"
+    },
+    {
+      "id": "pink-sands-beach",
+      "name": "Pink Sands Beach",
+      "country": "The Bahamas",
+      "region": "Harbour Island",
+      "coordinates": {
+        "lat": 25.4873731,
+        "lon": -76.6315895
+      },
+      "photos": [
+        {
+          "url": "https://images.unsplash.com/photo-1702569477370-6f90d4b84b69?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxQaW5rJTIwU2FuZHMlMjBCZWFjaCUyMGJlYWNofGVufDB8MHx8fDE3Njc4NTk2NjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "thumbnail": "https://images.unsplash.com/photo-1702569477370-6f90d4b84b69?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxQaW5rJTIwU2FuZHMlMjBCZWFjaCUyMGJlYWNofGVufDB8MHx8fDE3Njc4NTk2NjB8MA&ixlib=rb-4.1.0&q=80&w=400",
+          "photographer": "Athena Harden",
+          "photographerUrl": "https://unsplash.com/@afharde101"
+        }
+      ],
+      "description": "Three miles of soft sand blushed with a delicate rose hue derived from microscopic coral insects. The beach is wide, cool to walk on, and borders calm waters protected by outlying reefs, offering an atmosphere of upscale serenity.",
+      "shortDescription": "Endless stretches of blushing rose-colored sand.",
+      "vibes": [
+        "chic",
+        "serene",
+        "pastel",
+        "upscale"
+      ],
+      "bestMonths": [
+        12,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "activities": [
+        "horseback riding",
+        "snorkeling",
+        "beachcombing",
+        "fine dining"
+      ],
+      "facilities": [
+        "boutique resorts",
+        "beach bars",
+        "umbrellas"
+      ],
+      "crowdLevel": "low",
+      "accessibility": "easy",
+      "entryFee": "free",
+      "fetchedAt": "2026-01-08T14:15:00.000Z"
+    },
+    {
+      "id": "grace-bay",
+      "name": "Grace Bay",
+      "country": "Turks and Caicos",
+      "region": "Providenciales",
+      "coordinates": {
+        "lat": 21.7955,
+        "lon": -72.1818
+      },
+      "photos": [
+        {
+          "url": "https://images.unsplash.com/photo-1548357622-75bae8f235c2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxHcmFjZSUyMEJheSUyMGJlYWNofGVufDB8MHx8fDE3Njc4NTk2NjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "thumbnail": "https://images.unsplash.com/photo-1548357622-75bae8f235c2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxHcmFjZSUyMEJheSUyMGJlYWNofGVufDB8MHx8fDE3Njc4NTk2NjN8MA&ixlib=rb-4.1.0&q=80&w=400",
+          "photographer": "Jennifer Ranicki",
+          "photographerUrl": "https://unsplash.com/@jranicki"
+        }
+      ],
+      "description": "A hallmark of perfection, Grace Bay offers exceptionally clean, turquoise water and sugar-white sand free of rocks or seaweed. Protected by a barrier reef a mile offshore, the water is consistently calm and safe.",
+      "shortDescription": "The gold standard for Caribbean beaches.",
+      "vibes": [
+        "sophisticated",
+        "pristine",
+        "relaxing",
+        "family-friendly"
+      ],
+      "bestMonths": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "activities": [
+        "parasailing",
+        "paddleboarding",
+        "catamaran cruises",
+        "snorkeling (Bight Reef)"
+      ],
+      "facilities": [
+        "luxury hotels",
+        "restaurants",
+        "water sports rentals"
+      ],
+      "crowdLevel": "moderate",
+      "accessibility": "easy",
+      "entryFee": "free",
+      "fetchedAt": "2026-01-08T14:15:00.000Z"
+    },
+    {
+      "id": "railay-beach",
+      "name": "Railay Beach",
+      "country": "Thailand",
+      "region": "Krabi",
+      "coordinates": {
+        "lat": 8.011495,
+        "lon": 98.8377968
+      },
+      "photos": [
+        {
+          "url": "https://images.unsplash.com/photo-1674020548709-a1486167348a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxSYWlsYXklMjBCZWFjaCUyMGJlYWNofGVufDB8MHx8fDE3Njc4NTk2NjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "thumbnail": "https://images.unsplash.com/photo-1674020548709-a1486167348a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxSYWlsYXklMjBCZWFjaCUyMGJlYWNofGVufDB8MHx8fDE3Njc4NTk2NjV8MA&ixlib=rb-4.1.0&q=80&w=400",
+          "photographer": "Simon PALLARD",
+          "photographerUrl": "https://unsplash.com/@simonpallard"
+        }
+      ],
+      "description": "Accessible only by longtail boat due to high limestone cliffs cutting it off from the mainland. It is a haven for rock climbers and sunset lovers, offering a bohemian atmosphere with stunning karst scenery.",
+      "shortDescription": "Limestone cliffs meet emerald waters.",
+      "vibes": [
+        "adventure",
+        "bohemian",
+        "scenic",
+        "laid-back"
+      ],
+      "bestMonths": [
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "activities": [
+        "rock climbing",
+        "kayaking",
+        "island hopping",
+        "cave exploration"
+      ],
+      "facilities": [
+        "beach bars",
+        "rock climbing schools",
+        "restaurants",
+        "bungalows"
+      ],
+      "crowdLevel": "high",
+      "accessibility": "boat only",
+      "entryFee": "free",
+      "fetchedAt": "2026-01-08T14:15:00.000Z"
+    },
+    {
+      "id": "lanikai-beach",
+      "name": "Lanikai Beach",
+      "country": "United States",
+      "region": "Hawaii (Oahu)",
+      "coordinates": {
+        "lat": 21.3917342,
+        "lon": -157.7148121
+      },
+      "photos": [
+        {
+          "url": "https://images.unsplash.com/photo-1651991653827-635844992972?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxMYW5pa2FpJTIwQmVhY2glMjBiZWFjaHxlbnwwfDB8fHwxNzY3ODU5NjY2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "thumbnail": "https://images.unsplash.com/photo-1651991653827-635844992972?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxMYW5pa2FpJTIwQmVhY2glMjBiZWFjaHxlbnwwfDB8fHwxNzY3ODU5NjY2fDA&ixlib=rb-4.1.0&q=80&w=400",
+          "photographer": "john ko",
+          "photographerUrl": "https://unsplash.com/@jko001"
+        }
+      ],
+      "description": "Meaning 'Heavenly Sea', this beach lives up to its name with powdery sand and calm waters overlooking the twin Mokulua Islands. It sits in a quiet residential neighborhood, lacking large facilities but making up for it with sheer beauty.",
+      "shortDescription": "A heavenly strip of sand with iconic twin island views.",
+      "vibes": [
+        "peaceful",
+        "scenic",
+        "residential",
+        "heavenly"
+      ],
+      "bestMonths": [
+        4,
+        5,
+        9,
+        10
+      ],
+      "activities": [
+        "kayaking to the Mokes",
+        "sunrise viewing",
+        "swimming",
+        "outrigger canoeing"
+      ],
+      "facilities": [
+        "none (no restrooms/showers)"
+      ],
+      "crowdLevel": "moderate",
+      "accessibility": "easy (residential parking limited)",
+      "entryFee": "free",
+      "fetchedAt": "2026-01-08T14:15:00.000Z"
+    },
+    {
+      "id": "tulum-beach",
+      "name": "Tulum Beach",
+      "country": "Mexico",
+      "region": "Quintana Roo",
+      "coordinates": {
+        "lat": 20.2114,
+        "lon": -87.4308
+      },
+      "photos": [
+        {
+          "url": "https://images.unsplash.com/photo-1632165140793-9b00c0650d23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxUdWx1bSUyMEJlYWNoJTIwYmVhY2h8ZW58MHwwfHx8MTc2Nzg1OTY2OHww&ixlib=rb-4.1.0&q=80&w=1080",
+          "thumbnail": "https://images.unsplash.com/photo-1632165140793-9b00c0650d23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxUdWx1bSUyMEJlYWNoJTIwYmVhY2h8ZW58MHwwfHx8MTc2Nzg1OTY2OHww&ixlib=rb-4.1.0&q=80&w=400",
+          "photographer": "Elisa Kennemer",
+          "photographerUrl": "https://unsplash.com/@elisalou"
+        }
+      ],
+      "description": "Where ancient Mayan history meets bohemian luxury. The ruins of a fortress watch over the Caribbean sea, while down the coast, eco-chic beach clubs and jungle restaurants create a trendy, mystical atmosphere.",
+      "shortDescription": "Ancient ruins overlooking bohemian Caribbean sands.",
+      "vibes": [
+        "boho-chic",
+        "historic",
+        "trendy",
+        "spiritual"
+      ],
+      "bestMonths": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "activities": [
+        "exploring Mayan ruins",
+        "cenote swimming",
+        "yoga",
+        "beach clubbing"
+      ],
+      "facilities": [
+        "beach clubs",
+        "boutique hotels",
+        "restaurants",
+        "spas"
+      ],
+      "crowdLevel": "high",
+      "accessibility": "easy",
+      "entryFee": "free (ruins require ticket)",
+      "fetchedAt": "2026-01-08T14:15:00.000Z"
+    },
+    {
+      "id": "el-nido",
+      "name": "El Nido (Bacuit Bay)",
+      "country": "Philippines",
+      "region": "Palawan",
+      "coordinates": {
+        "lat": 11.1956,
+        "lon": 119.4075
+      },
+      "photos": [
+        {
+          "url": "https://images.unsplash.com/photo-1561459832-f79f04d51e4a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxFbCUyME5pZG8lMjBiZWFjaHxlbnwwfDB8fHwxNzY3ODU5NjcwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "thumbnail": "https://images.unsplash.com/photo-1561459832-f79f04d51e4a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxFbCUyME5pZG8lMjBiZWFjaHxlbnwwfDB8fHwxNzY3ODU5NjcwfDA&ixlib=rb-4.1.0&q=80&w=400",
+          "photographer": "Arjohn Janroe Queral",
+          "photographerUrl": "https://unsplash.com/@arjohnjanroe"
+        }
+      ],
+      "description": "A gateway to the Bacuit Archipelago, featuring dramatic black limestone cliffs guarding secret lagoons and pristine white pockets of sand. The water here is a striking mix of emerald and teal.",
+      "shortDescription": "Secret lagoons hidden among limestone karsts.",
+      "vibes": [
+        "adventurous",
+        "tropical",
+        "dramatic",
+        "scenic"
+      ],
+      "bestMonths": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "activities": [
+        "island hopping tours",
+        "kayaking lagoons",
+        "snorkeling",
+        "cliff climbing"
+      ],
+      "facilities": [
+        "tour boats",
+        "beachfront bars (in town)",
+        "kayak rentals"
+      ],
+      "crowdLevel": "moderate",
+      "accessibility": "boat only (for best beaches)",
+      "entryFee": "paid (Eco-tourism fee)",
+      "fetchedAt": "2026-01-08T14:15:00.000Z"
+    },
+    {
+      "id": "cannon-beach",
+      "name": "Cannon Beach",
+      "country": "United States",
+      "region": "Oregon",
+      "coordinates": {
+        "lat": 45.8918,
+        "lon": -123.9615
+      },
+      "photos": [
+        {
+          "url": "https://images.unsplash.com/photo-1420496368970-d83b063b5b48?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxDYW5ub24lMjBCZWFjaCUyMGJlYWNofGVufDB8MHx8fDE3Njc4NTk2NzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "thumbnail": "https://images.unsplash.com/photo-1420496368970-d83b063b5b48?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxDYW5ub24lMjBCZWFjaCUyMGJlYWNofGVufDB8MHx8fDE3Njc4NTk2NzF8MA&ixlib=rb-4.1.0&q=80&w=400",
+          "photographer": "Ryan Wilson",
+          "photographerUrl": "https://unsplash.com/@rbwilson"
+        }
+      ],
+      "description": "A rugged, atmospheric coastline defined by the towering Haystack Rock. It's not a beach for swimming, but for long walks in the mist, exploring tide pools filled with starfish, and bonfire evenings.",
+      "shortDescription": "Moody Pacific coast famous for Haystack Rock.",
+      "vibes": [
+        "moody",
+        "wild",
+        "scenic",
+        "relaxed"
+      ],
+      "bestMonths": [
+        7,
+        8,
+        9
+      ],
+      "activities": [
+        "tide pooling",
+        "beach fires",
+        "photography",
+        "flying kites"
+      ],
+      "facilities": [
+        "public parking",
+        "restrooms",
+        "nearby town shops"
+      ],
+      "crowdLevel": "moderate",
+      "accessibility": "easy",
+      "entryFee": "free",
+      "fetchedAt": "2026-01-08T14:15:00.000Z"
+    },
+    {
+      "id": "reynisfjara-beach",
+      "name": "Reynisfjara Beach",
+      "country": "Iceland",
+      "region": "South Coast",
+      "coordinates": {
+        "lat": 63.4044262,
+        "lon": -19.0586361
+      },
+      "photos": [
+        {
+          "url": "https://images.unsplash.com/photo-1617191804938-f649b41683b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxSZXluaXNmamFyYSUyMEJlYWNoJTIwYmVhY2h8ZW58MHwwfHx8MTc2Nzg1OTY3M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+          "thumbnail": "https://images.unsplash.com/photo-1617191804938-f649b41683b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxSZXluaXNmamFyYSUyMEJlYWNoJTIwYmVhY2h8ZW58MHwwfHx8MTc2Nzg1OTY3M3ww&ixlib=rb-4.1.0&q=80&w=400",
+          "photographer": "Ása Steinarsdóttir",
+          "photographerUrl": "https://unsplash.com/@asast"
+        }
+      ],
+      "description": "A stunningly dark and dangerous beauty featuring ink-black sand, geometric basalt columns, and roaring Atlantic waves. It creates a gothic, otherworldly atmosphere that demands respect due to its famous 'sneaker waves'.",
+      "shortDescription": "Dramatic black sand and basalt columns.",
+      "vibes": [
+        "gothic",
+        "powerful",
+        "mysterious",
+        "cold"
+      ],
+      "bestMonths": [
+        6,
+        7,
+        8
+      ],
+      "activities": [
+        "photography",
+        "geology viewing",
+        "bird watching (puffins)"
+      ],
+      "facilities": [
+        "cafe/restaurant",
+        "parking",
+        "toilets (paid)"
+      ],
+      "crowdLevel": "high",
+      "accessibility": "easy",
+      "entryFee": "free",
+      "fetchedAt": "2026-01-08T14:15:00.000Z"
+    },
+    {
+      "id": "matira-beach",
+      "name": "Matira Beach",
+      "country": "French Polynesia",
+      "region": "Bora Bora",
+      "coordinates": {
+        "lat": -16.537659,
+        "lon": -151.7394763
+      },
+      "photos": [
+        {
+          "url": "https://images.unsplash.com/photo-1613200490958-acbb44189c7b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxNYXRpcmElMjBCZWFjaCUyMGJlYWNofGVufDB8MHx8fDE3Njc4NTk2NzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "thumbnail": "https://images.unsplash.com/photo-1613200490958-acbb44189c7b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxNYXRpcmElMjBCZWFjaCUyMGJlYWNofGVufDB8MHx8fDE3Njc4NTk2NzR8MA&ixlib=rb-4.1.0&q=80&w=400",
+          "photographer": "Sandip Roy",
+          "photographerUrl": "https://unsplash.com/@sandiproy_kolkata"
+        }
+      ],
+      "description": "The largest public access beach on Bora Bora, Matira stretches out as a mile-long peninsula of soft white sand. The water is impossibly shallow and warm, perfect for wading hundreds of meters out toward the barrier reef.",
+      "shortDescription": "Bora Bora's stunning public white-sand mile.",
+      "vibes": [
+        "romantic",
+        "peaceful",
+        "shallow",
+        "tropical"
+      ],
+      "bestMonths": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "activities": [
+        "sunset viewing",
+        "snorkeling",
+        "wading",
+        "picnicking"
+      ],
+      "facilities": [
+        "restaurants",
+        "snack bars",
+        "shade trees"
+      ],
+      "crowdLevel": "moderate",
+      "accessibility": "easy",
+      "entryFee": "free",
+      "fetchedAt": "2026-01-08T14:15:00.000Z"
+    },
+    {
+      "id": "seven-mile-beach",
+      "name": "Seven Mile Beach",
+      "country": "Cayman Islands",
+      "region": "Grand Cayman",
+      "coordinates": {
+        "lat": 19.3409249,
+        "lon": -81.3816303
+      },
+      "photos": [
+        {
+          "url": "https://images.unsplash.com/photo-1574421624183-fa5b6250d896?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxTZXZlbiUyME1pbGUlMjBCZWFjaCUyMGJlYWNofGVufDB8MHx8fDE3Njc4NTk2NzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "thumbnail": "https://images.unsplash.com/photo-1574421624183-fa5b6250d896?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxTZXZlbiUyME1pbGUlMjBCZWFjaCUyMGJlYWNofGVufDB8MHx8fDE3Njc4NTk2NzZ8MA&ixlib=rb-4.1.0&q=80&w=400",
+          "photographer": "Deeva Sood",
+          "photographerUrl": "https://unsplash.com/@deev_s0"
+        }
+      ],
+      "description": "A crescent of coral-sand perfection that hosts the island's best resorts. Despite its development, the beach is wide enough to feel spacious, with calm, crystal-clear water ideal for floating and swimming.",
+      "shortDescription": "Resort-lined perfection with crystal clear water.",
+      "vibes": [
+        "developed",
+        "safe",
+        "luxury",
+        "lively"
+      ],
+      "bestMonths": [
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "activities": [
+        "parasailing",
+        "snorkeling (Cemetery Reef)",
+        "paddleboarding",
+        "beach walks"
+      ],
+      "facilities": [
+        "beach bars",
+        "resorts",
+        "equipment rentals",
+        "showers"
+      ],
+      "crowdLevel": "high",
+      "accessibility": "easy",
+      "entryFee": "free",
+      "fetchedAt": "2026-01-08T14:15:00.000Z"
+    },
+    {
+      "id": "playa-paraiso",
+      "name": "Playa Paraiso",
+      "country": "Mexico",
+      "region": "Tulum / Riviera Maya",
+      "coordinates": {
+        "lat": 20.2086,
+        "lon": -87.4299
+      },
+      "photos": [
+        {
+          "url": "https://images.unsplash.com/photo-1571435412236-d8c62781a069?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxQbGF5YSUyMFBhcmFpc28lMjBiZWFjaHxlbnwwfDB8fHwxNzY3ODU5NjgyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "thumbnail": "https://images.unsplash.com/photo-1571435412236-d8c62781a069?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxQbGF5YSUyMFBhcmFpc28lMjBiZWFjaHxlbnwwfDB8fHwxNzY3ODU5NjgyfDA&ixlib=rb-4.1.0&q=80&w=400",
+          "photographer": "Juan Carlos Otero",
+          "photographerUrl": "https://unsplash.com/@jcotero"
+        }
+      ],
+      "description": "True to its name 'Paradise Beach', this wide stretch in Tulum is famous for its leaning palm trees and vast, open sands. It is less crowded than the northern hotel zone, offering a quintessential Caribbean postcard experience.",
+      "shortDescription": "Iconic leaning palms and wide white sands.",
+      "vibes": [
+        "postcard-perfect",
+        "spacious",
+        "relaxed",
+        "tropical"
+      ],
+      "bestMonths": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "activities": [
+        "snorkeling tours to reef",
+        "sunbathing",
+        "beach clubbing",
+        "photo shoots"
+      ],
+      "facilities": [
+        "beach clubs",
+        "sunbeds",
+        "restaurants"
+      ],
+      "crowdLevel": "moderate",
+      "accessibility": "easy",
+      "entryFee": "free",
+      "fetchedAt": "2026-01-08T14:15:00.000Z"
+    },
+    {
+      "id": "praia-da-marinha",
+      "name": "Praia da Marinha",
+      "country": "Portugal",
+      "region": "Algarve",
+      "coordinates": {
+        "lat": 37.0897676,
+        "lon": -8.4127099
+      },
+      "photos": [
+        {
+          "url": "https://images.unsplash.com/photo-1591264786838-6acdff391890?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxQcmFpYSUyMGRhJTIwTWFyaW5oYSUyMGJlYWNofGVufDB8MHx8fDE3Njc4NTk2ODR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "thumbnail": "https://images.unsplash.com/photo-1591264786838-6acdff391890?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxQcmFpYSUyMGRhJTIwTWFyaW5oYSUyMGJlYWNofGVufDB8MHx8fDE3Njc4NTk2ODR8MA&ixlib=rb-4.1.0&q=80&w=400",
+          "photographer": "Tim ten Cate",
+          "photographerUrl": "https://unsplash.com/@timtencate"
+        }
+      ],
+      "description": "The jewel of the Algarve, famous for its golden limestone cliffs, double sea arches, and turquoise water. The view from the clifftops is as impressive as the beach itself, which is reached by a long staircase.",
+      "shortDescription": "Golden cliffs and sea arches on the Algarve coast.",
+      "vibes": [
+        "scenic",
+        "geological",
+        "golden",
+        "rugged"
+      ],
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "activities": [
+        "clifftop hiking",
+        "snorkeling",
+        "cave exploration",
+        "photography"
+      ],
+      "facilities": [
+        "snack bar (seasonal)",
+        "parking (busy)",
+        "steep stairs"
+      ],
+      "crowdLevel": "high (in summer)",
+      "accessibility": "moderate (stairs)",
+      "entryFee": "free",
+      "fetchedAt": "2026-01-08T14:15:00.000Z"
+    },
+    {
+      "id": "hidden-beach",
+      "name": "Hidden Beach (Playa del Amor)",
+      "country": "Mexico",
+      "region": "Marieta Islands",
+      "coordinates": {
+        "lat": 20.7042,
+        "lon": -105.566
+      },
+      "photos": [
+        {
+          "url": "https://images.unsplash.com/photo-1667323500689-231a2d458568?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxIaWRkZW4lMjBCZWFjaCUyMGJlYWNofGVufDB8MHx8fDE3Njc4NTk2ODZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "thumbnail": "https://images.unsplash.com/photo-1667323500689-231a2d458568?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxIaWRkZW4lMjBCZWFjaCUyMGJlYWNofGVufDB8MHx8fDE3Njc4NTk2ODZ8MA&ixlib=rb-4.1.0&q=80&w=400",
+          "photographer": "Renato",
+          "photographerUrl": "https://unsplash.com/@cvzzn"
+        }
+      ],
+      "description": "A secret sandy cove hidden inside a crater-like hole in the lush green island roof. Accessible only by swimming through a short tunnel at low tide, it offers a surreal and exclusive experience regulated by conservation efforts.",
+      "shortDescription": "A secret beach inside a cave, accessible by swim only.",
+      "vibes": [
+        "adventurous",
+        "exclusive",
+        "surreal",
+        "hidden"
+      ],
+      "bestMonths": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "activities": [
+        "swimming through caves",
+        "whale watching (nearby)",
+        "bird watching"
+      ],
+      "facilities": [
+        "none (protected area)"
+      ],
+      "crowdLevel": "low (strictly limited)",
+      "accessibility": "hard (tour + swim required)",
+      "entryFee": "paid (Permit required)",
+      "fetchedAt": "2026-01-08T14:15:00.000Z"
+    },
+    {
+      "id": "flamenco-beach",
+      "name": "Flamenco Beach",
+      "country": "Puerto Rico",
+      "region": "Culebra",
+      "coordinates": {
+        "lat": 18.3316725,
+        "lon": -65.3213838
+      },
+      "photos": [
+        {
+          "url": "https://images.unsplash.com/photo-1720204947469-e23d99823883?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxGbGFtZW5jbyUyMEJlYWNoJTIwYmVhY2h8ZW58MHwwfHx8MTc2Nzg1OTY4N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+          "thumbnail": "https://images.unsplash.com/photo-1720204947469-e23d99823883?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxGbGFtZW5jbyUyMEJlYWNoJTIwYmVhY2h8ZW58MHwwfHx8MTc2Nzg1OTY4N3ww&ixlib=rb-4.1.0&q=80&w=400",
+          "photographer": "Sarat Karumuri",
+          "photographerUrl": "https://unsplash.com/@sherugadu"
+        }
+      ],
+      "description": "A horseshoe of blindingly white sand on the island of Culebra. It is famous for its graffiti-covered rusty tank, a relic of the US Navy, which now sits as an art installation against the backdrop of pristine turquoise waves.",
+      "shortDescription": "Pristine sands with iconic graffiti-covered tanks.",
+      "vibes": [
+        "historic",
+        "vibrant",
+        "clear-water",
+        "laid-back"
+      ],
+      "bestMonths": [
+        12,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "activities": [
+        "snorkeling",
+        "camping",
+        "tank photography",
+        "swimming"
+      ],
+      "facilities": [
+        "food kiosks",
+        "campground",
+        "showers",
+        "bathrooms"
+      ],
+      "crowdLevel": "moderate",
+      "accessibility": "ferry ride required",
+      "entryFee": "paid (small conservation fee)",
+      "fetchedAt": "2026-01-08T14:15:00.000Z"
+    },
+    {
+      "id": "horseshoe-bay-beach",
+      "name": "Horseshoe Bay Beach",
+      "country": "Bermuda",
+      "region": "Southampton Parish",
+      "coordinates": {
+        "lat": 32.252186,
+        "lon": -64.8216803
+      },
+      "photos": [
+        {
+          "url": "https://images.unsplash.com/photo-1626634297977-a757e370c6cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxIb3JzZXNob2UlMjBCYXklMjBCZWFjaCUyMGJlYWNofGVufDB8MHx8fDE3Njc4NTk2ODl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "thumbnail": "https://images.unsplash.com/photo-1626634297977-a757e370c6cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxIb3JzZXNob2UlMjBCYXklMjBCZWFjaCUyMGJlYWNofGVufDB8MHx8fDE3Njc4NTk2ODl8MA&ixlib=rb-4.1.0&q=80&w=400",
+          "photographer": "Shakti Rajpurohit",
+          "photographerUrl": "https://unsplash.com/@shaktirajpurohit"
+        }
+      ],
+      "description": "Bermuda's most famous beach, renowned for its curved shape and pale pink sand. Dramatic rock formations create sheltered coves for swimming, while the main stretch offers fun waves and vibrant blue water.",
+      "shortDescription": "Famous pink sands curved in a horseshoe shape.",
+      "vibes": [
+        "family-friendly",
+        "scenic",
+        "busy",
+        "classic"
+      ],
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "activities": [
+        "cave exploration",
+        "snorkeling",
+        "cliff jumping (carefully)",
+        "body surfing"
+      ],
+      "facilities": [
+        "cafe",
+        "equipment rental",
+        "lifeguards",
+        "shuttle bus"
+      ],
+      "crowdLevel": "high",
+      "accessibility": "easy",
+      "entryFee": "free",
+      "fetchedAt": "2026-01-08T14:15:00.000Z"
+    },
+    {
+      "id": "nusa-dua-beach",
+      "name": "Nusa Dua Beach",
+      "country": "Indonesia",
+      "region": "Bali",
+      "coordinates": {
+        "lat": -8.7884638,
+        "lon": 115.2302166
+      },
+      "photos": [
+        {
+          "url": "https://images.unsplash.com/photo-1659840546785-25b70dc9a4be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxOdXNhJTIwRHVhJTIwQmVhY2glMjBiZWFjaHxlbnwwfDB8fHwxNzY3ODU5NjkwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "thumbnail": "https://images.unsplash.com/photo-1659840546785-25b70dc9a4be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxOdXNhJTIwRHVhJTIwQmVhY2glMjBiZWFjaHxlbnwwfDB8fHwxNzY3ODU5NjkwfDA&ixlib=rb-4.1.0&q=80&w=400",
+          "photographer": "Hujjathul Jalaludeen",
+          "photographerUrl": "https://unsplash.com/@hujat81"
+        }
+      ],
+      "description": "A manicured sanctuary of luxury, contrasting with the rest of Bali's hustle. White sands are swept daily, and the water is calm and reef-protected, making it ideal for families and those seeking a resort-style experience.",
+      "shortDescription": "Manicured luxury and calm waters in Bali.",
+      "vibes": [
+        "upscale",
+        "clean",
+        "resort-heavy",
+        "relaxing"
+      ],
+      "bestMonths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "activities": [
+        "camel rides",
+        "water sports",
+        "golfing",
+        "spa days"
+      ],
+      "facilities": [
+        "shopping centers",
+        "5-star resorts",
+        "promenade",
+        "restaurants"
+      ],
+      "crowdLevel": "moderate",
+      "accessibility": "easy",
+      "entryFee": "free",
+      "fetchedAt": "2026-01-08T14:15:00.000Z"
+    },
+    {
+      "id": "bavaro-beach",
+      "name": "Bavaro Beach",
+      "country": "Dominican Republic",
+      "region": "Punta Cana",
+      "coordinates": {
+        "lat": 18.6826,
+        "lon": -68.423
+      },
+      "photos": [
+        {
+          "url": "https://images.unsplash.com/photo-1551126892-7cf2e2d9a4d9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxCYXZhcm8lMjBCZWFjaCUyMGJlYWNofGVufDB8MHx8fDE3Njc4NTk2OTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "thumbnail": "https://images.unsplash.com/photo-1551126892-7cf2e2d9a4d9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxCYXZhcm8lMjBCZWFjaCUyMGJlYWNofGVufDB8MHx8fDE3Njc4NTk2OTJ8MA&ixlib=rb-4.1.0&q=80&w=400",
+          "photographer": "Melisa Popanicic",
+          "photographerUrl": "https://unsplash.com/@allaboutmelisa"
+        }
+      ],
+      "description": "The epitome of the Caribbean all-inclusive dream. Endless rows of coconut palms lean over wide white sands, while catamaran party boats bob in the turquoise distance. It is bustling, fun, and picture-perfect.",
+      "shortDescription": "Palm-lined perfection in the heart of Punta Cana.",
+      "vibes": [
+        "tropical",
+        "all-inclusive",
+        "party",
+        "leisure"
+      ],
+      "bestMonths": [
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "activities": [
+        "catamaran tours",
+        "parasailing",
+        "snorkeling",
+        "beach volleyball"
+      ],
+      "facilities": [
+        "beach bars",
+        "resort lounges",
+        "massage huts",
+        "gift shops"
+      ],
+      "crowdLevel": "high",
+      "accessibility": "easy",
+      "entryFee": "free",
+      "fetchedAt": "2026-01-08T14:15:00.000Z"
+    },
+    {
+      "id": "camps-bay",
+      "name": "Camps Bay",
+      "country": "South Africa",
+      "region": "Cape Town",
+      "coordinates": {
+        "lat": -33.9509089,
+        "lon": 18.3777222
+      },
+      "photos": [
+        {
+          "url": "https://images.unsplash.com/photo-1687152645517-ecc2dd3afdd4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxDYW1wcyUyMEJheSUyMGJlYWNofGVufDB8MHx8fDE3Njc4NTk2OTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "thumbnail": "https://images.unsplash.com/photo-1687152645517-ecc2dd3afdd4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxDYW1wcyUyMEJheSUyMGJlYWNofGVufDB8MHx8fDE3Njc4NTk2OTR8MA&ixlib=rb-4.1.0&q=80&w=400",
+          "photographer": "Ryan Cuerden",
+          "photographerUrl": "https://unsplash.com/@ryancuerden"
+        }
+      ],
+      "description": "Cape Town's 'glamour mile', backed by the majestic Twelve Apostles mountain range. The water is icy cold, but the scene is hot—filled with chic bars, sunset cocktails, and stunning views.",
+      "shortDescription": "Chic beach strip backed by majestic mountains.",
+      "vibes": [
+        "glamorous",
+        "scenic",
+        "icy-water",
+        "trendy"
+      ],
+      "bestMonths": [
+        12,
+        1,
+        2,
+        3
+      ],
+      "activities": [
+        "sundowners",
+        "volleyball",
+        "sunbathing",
+        "fine dining"
+      ],
+      "facilities": [
+        "tidal pool",
+        "umbrella rentals",
+        "promenade",
+        "restaurants"
+      ],
+      "crowdLevel": "high",
+      "accessibility": "easy",
+      "entryFee": "free",
+      "fetchedAt": "2026-01-08T14:15:00.000Z"
+    },
+    {
+      "id": "zlatni-rat",
+      "name": "Zlatni Rat",
+      "country": "Croatia",
+      "region": "Brac Island",
+      "coordinates": {
+        "lat": 43.2570896,
+        "lon": 16.6346469
+      },
+      "photos": [
+        {
+          "url": "https://images.unsplash.com/photo-1692363670248-e4000a2a18dd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxabGF0bmklMjBSYXQlMjBiZWFjaHxlbnwwfDB8fHwxNzY3ODU5Njk2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "thumbnail": "https://images.unsplash.com/photo-1692363670248-e4000a2a18dd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxabGF0bmklMjBSYXQlMjBiZWFjaHxlbnwwfDB8fHwxNzY3ODU5Njk2fDA&ixlib=rb-4.1.0&q=80&w=400",
+          "photographer": "Daniela Prusina",
+          "photographerUrl": "https://unsplash.com/@dprusina"
+        }
+      ],
+      "description": "The 'Golden Horn' of Croatia, a pebble spit that changes shape with the wind and tide. It juts perpendicularly into the sapphire Adriatic Sea, backed by fragrant pine groves and offering excellent windsurfing conditions.",
+      "shortDescription": "A shape-shifting pebble spit in the Adriatic.",
+      "vibes": [
+        "unique",
+        "windy",
+        "Mediterranean",
+        "striking"
+      ],
+      "bestMonths": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "activities": [
+        "windsurfing",
+        "paddleboarding",
+        "swimming",
+        "sunbathing"
+      ],
+      "facilities": [
+        "beach bars",
+        "inflatable water park",
+        "showers",
+        "parking"
+      ],
+      "crowdLevel": "high",
+      "accessibility": "easy",
+      "entryFee": "free (parking is paid)",
+      "fetchedAt": "2026-01-08T14:15:00.000Z"
+    },
+    {
+      "id": "anse-lazio",
+      "name": "Anse Lazio",
+      "country": "Seychelles",
+      "region": "Praslin",
+      "coordinates": {
+        "lat": -4.2934363,
+        "lon": 55.7018999
+      },
+      "photos": [
+        {
+          "url": "https://images.unsplash.com/photo-1742664142349-cff27bcdbcfd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxBbnNlJTIwTGF6aW8lMjBiZWFjaHxlbnwwfDB8fHwxNzY3ODU5Njc4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "thumbnail": "https://images.unsplash.com/photo-1742664142349-cff27bcdbcfd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxBbnNlJTIwTGF6aW8lMjBiZWFjaHxlbnwwfDB8fHwxNzY3ODU5Njc4fDA&ixlib=rb-4.1.0&q=80&w=400",
+          "photographer": "Johnny Africa",
+          "photographerUrl": "https://unsplash.com/@johnnyafrica"
+        }
+      ],
+      "description": "Often cited as one of the world's most beautiful beaches, featuring soft white sand, clear lapis lazuli waters, and granite boulders at each end. Unlike other Seychelles beaches, it has no coral reef, creating fun rolling waves.",
+      "shortDescription": "Picture-perfect crescent with granite boulders.",
+      "vibes": [
+        "pristine",
+        "scenic",
+        "lush",
+        "tropical"
+      ],
+      "bestMonths": [
+        4,
+        5,
+        10,
+        11
+      ],
+      "activities": [
+        "swimming",
+        "snorkeling (near rocks)",
+        "sunbathing",
+        "photography"
+      ],
+      "facilities": [
+        "restaurants (Bonbon Plume)",
+        "parking",
+        "lifeguards (seasonal)"
+      ],
+      "crowdLevel": "moderate",
+      "accessibility": "easy (steep road access)",
+      "entryFee": "free",
+      "fetchedAt": "2026-01-08T14:15:00.000Z"
+    },
+    {
+      "id": "elafonissi-beach",
+      "name": "Elafonissi Beach",
+      "country": "Greece",
+      "region": "Crete",
+      "coordinates": {
+        "lat": 35.2694547,
+        "lon": 23.5316352
+      },
+      "photos": [
+        {
+          "url": "https://images.unsplash.com/photo-1636654963939-fb092cec6955?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxFbGFmb25pc3NpJTIwQmVhY2glMjBiZWFjaHxlbnwwfDB8fHwxNzY3ODU5Njc5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "thumbnail": "https://images.unsplash.com/photo-1636654963939-fb092cec6955?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxFbGFmb25pc3NpJTIwQmVhY2glMjBiZWFjaHxlbnwwfDB8fHwxNzY3ODU5Njc5fDA&ixlib=rb-4.1.0&q=80&w=400",
+          "photographer": "Marita Mones",
+          "photographerUrl": "https://unsplash.com/@msmones"
+        }
+      ],
+      "description": "A magical lagoon where the sand turns pink from crushed shells. You can walk through knee-deep turquoise water to the island, which is a protected nature reserve offering dunes and cedar trees.",
+      "shortDescription": "Pink sands and shallow lagoon waters.",
+      "vibes": [
+        "magical",
+        "family-friendly",
+        "windy",
+        "shallow"
+      ],
+      "bestMonths": [
+        5,
+        6,
+        9,
+        10
+      ],
+      "activities": [
+        "wading to island",
+        "windsurfing",
+        "nature walks",
+        "sunset watching"
+      ],
+      "facilities": [
+        "sunbeds (main beach)",
+        "snack bars",
+        "toilets (paid)",
+        "parking"
+      ],
+      "crowdLevel": "very high",
+      "accessibility": "easy",
+      "entryFee": "free",
+      "fetchedAt": "2026-01-08T14:15:00.000Z"
+    },
+    {
+      "id": "cable-beach",
+      "name": "Cable Beach",
+      "country": "The Bahamas",
+      "region": "New Providence (Nassau)",
+      "coordinates": {
+        "lat": 25.0781198,
+        "lon": -77.4107916
+      },
+      "photos": [
+        {
+          "url": "https://images.unsplash.com/photo-1703821588549-af8458f7c47b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxDYWJsZSUyMEJlYWNoJTIwYmVhY2h8ZW58MHwwfHx8MTc2Nzg1OTY4MXww&ixlib=rb-4.1.0&q=80&w=1080",
+          "thumbnail": "https://images.unsplash.com/photo-1703821588549-af8458f7c47b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxDYWJsZSUyMEJlYWNoJTIwYmVhY2h8ZW58MHwwfHx8MTc2Nzg1OTY4MXww&ixlib=rb-4.1.0&q=80&w=400",
+          "photographer": "Sheila C",
+          "photographerUrl": "https://unsplash.com/@qld_traveller"
+        }
+      ],
+      "description": "The playground of Nassau, featuring 2.5 miles of white sand lined with massive resorts and casinos. The water is calm and sapphire blue, offering a classic Bahamian vacation experience with every amenity at your fingertips.",
+      "shortDescription": "Nassau's resort hub with calm blue waters.",
+      "vibes": [
+        "developed",
+        "accessible",
+        "energetic",
+        "turquoise"
+      ],
+      "bestMonths": [
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "activities": [
+        "jet skiing",
+        "parasailing",
+        "casino gaming",
+        "swimming"
+      ],
+      "facilities": [
+        "resorts",
+        "casinos",
+        "vendors",
+        "water sports rentals"
+      ],
+      "crowdLevel": "high",
+      "accessibility": "easy",
+      "entryFee": "free",
+      "fetchedAt": "2026-01-08T14:15:00.000Z"
+    }
+  ]
+}
