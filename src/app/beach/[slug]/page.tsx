@@ -12,8 +12,56 @@ import { toggleFavorite } from "@/actions/favorites"
 import { ThemeToggle } from "@/components/ThemeToggle"
 import { WeatherWidget } from "@/components/WeatherWidget"
 import { VibeSummary } from "@/components/VibeSummary"
+import { ShareButton } from "@/components/ShareButton"
+
+import { Metadata } from "next"
 
 export const dynamic = 'force-dynamic'
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>
+}): Promise<Metadata> {
+  const { slug } = await params
+  const { beach } = await getBeachBySlug(slug)
+
+  if (!beach) {
+    return {
+      title: "Beach Not Found",
+    }
+  }
+
+  const description = beach.shortDescription || beach.description?.slice(0, 160) || `Discover ${beach.name} in ${beach.country}.`
+  const ogImage = beach.photos[0]?.url || "https://best-beachs.vercel.app/og-image.png"
+
+  return {
+    title: beach.name,
+    description: description,
+    openGraph: {
+      title: `${beach.name} | BeachSeeker`,
+      description: description,
+      url: `https://best-beachs.vercel.app/beach/${beach.slug}`,
+      siteName: "BeachSeeker",
+      images: [
+        {
+          url: ogImage,
+          width: 1200,
+          height: 630,
+          alt: beach.name,
+        },
+      ],
+      locale: "en_US",
+      type: "website",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${beach.name} | BeachSeeker`,
+      description: description,
+      images: [ogImage],
+    },
+  }
+}
 
 export default async function BeachDetail({
   params,
@@ -75,10 +123,11 @@ export default async function BeachDetail({
           </Link>
           <div className="flex items-center gap-2">
             <ThemeToggle />
-            <Button variant="ghost" size="sm" className="gap-2 rounded-lg text-slate-600 dark:text-slate-400">
-              <Share2 className="h-4 w-4" />
-              <span className="hidden sm:inline">Share</span>
-            </Button>
+            <ShareButton 
+              title={beach.name}
+              text={`Check out ${beach.name} on BeachSeeker!`}
+              url={`https://best-beachs.vercel.app/beach/${beach.slug}`}
+            />
             <form action={async () => {
               "use server"
               await toggleFavorite(beach.id)

@@ -163,6 +163,15 @@ export const favoriteRelations = relations(favorites, ({ one }) => ({
 }));
 
 // ============================================================================
+// SUBSCRIBERS TABLE - Newsletter signups
+// ============================================================================
+export const subscribers = pgTable("subscribers", {
+  id: uuid("id").primaryKey().defaultRandom(),
+  email: varchar("email", { length: 255 }).notNull().unique(),
+  createdAt: timestamp("created_at").defaultNow().notNull(),
+});
+
+// ============================================================================
 // TYPE EXPORTS
 // ============================================================================
 export type Beach = typeof beaches.$inferSelect;
@@ -179,3 +188,5 @@ export type BestMonth = typeof bestMonths.$inferSelect;
 export type NewBestMonth = typeof bestMonths.$inferInsert;
 export type Favorite = typeof favorites.$inferSelect;
 export type NewFavorite = typeof favorites.$inferInsert;
+export type Subscriber = typeof subscribers.$inferSelect;
+export type NewSubscriber = typeof subscribers.$inferInsert;

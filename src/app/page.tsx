@@ -6,6 +6,7 @@ import { Heart, Search, User } from "lucide-react"
 import Link from "next/link"
 import { ThemeToggle } from "@/components/ThemeToggle"
 import { HeaderSearch } from "@/components/HeaderSearch"
+import { Newsletter } from "@/components/Newsletter"
 
 export const dynamic = 'force-dynamic'
 
@@ -89,7 +90,10 @@ export default async function Home({
             ))}
           </div>
         )}
-      </main>
+        <div className="container mx-auto px-4 mt-20">
+        {/* <Newsletter /> */}
+      </div>
+    </main>
 
       {/* Footer (Simple) */}
       <footer className="mt-12 border-t bg-slate-50 dark:bg-slate-950 dark:border-slate-800 py-12">
