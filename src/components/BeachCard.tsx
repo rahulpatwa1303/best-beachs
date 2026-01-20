@@ -8,7 +8,7 @@ import { Card } from '@/components/ui/card'
 import { BeachListItem } from '@/lib/schemas'
 import { cn } from '@/lib/utils'
 import { toggleFavorite } from '@/actions/favorites'
-import { useRouter } from 'next/navigation'
+import { useRouter, useSearchParams } from 'next/navigation'
 import { useState } from 'react'
 
 interface BeachCardProps {
@@ -24,7 +24,7 @@ export function BeachCard({ beach, className }: BeachCardProps) {
   const handleToggleFavorite = async (e: React.MouseEvent) => {
     e.preventDefault()
     if (isLoading) return
-    
+
     setIsFavorite(!isFavorite)
     setIsLoading(true)
 
@@ -52,24 +52,24 @@ export function BeachCard({ beach, className }: BeachCardProps) {
         ) : (
           <div className="h-full w-full bg-muted" />
         )}
-        
+
         {/* Favorite Button */}
         <button
           onClick={handleToggleFavorite}
           disabled={isLoading}
           className="absolute right-3 top-3 z-20 transition-transform active:scale-90"
         >
-          <Heart 
+          <Heart
             className={cn(
               "h-6 w-6 transition-colors",
               isFavorite ? "fill-rose-500 stroke-rose-500" : "fill-black/30 stroke-white stroke-[2px]"
-            )} 
+            )}
           />
           <span className="sr-only">Save {beach.name}</span>
         </button>
 
-        <Link 
-          href={`/beach/${beach.slug}`}
+        <Link
+          href={`/beach/${beach.slug}?${new URLSearchParams(useSearchParams().toString()).toString()}`}
           className="absolute inset-0 z-10"
         >
           <span className="sr-only">View {beach.name}</span>
@@ -89,6 +89,11 @@ export function BeachCard({ beach, className }: BeachCardProps) {
         </div>
         <p className="text-sm text-slate-500 dark:text-slate-400 line-clamp-1">
           {beach.region}, {beach.country}
+          {beach.distance !== undefined && (
+            <span className="ml-2 text-rose-500 font-medium">
+              • {beach.distance} km away
+            </span>
+          )}
         </p>
         <div className="mt-1 flex flex-wrap gap-1.5">
           {beach.vibes.slice(0, 2).map((vibe) => (

@@ -21,6 +21,18 @@ export const GetBeachesInputSchema = z.object({
 export type GetBeachesInput = z.infer<typeof GetBeachesInputSchema>;
 
 /**
+ * Input schema for getBeachesNearMe server function
+ */
+export const GetBeachesNearMeInputSchema = z.object({
+  lat: z.number(),
+  lon: z.number(),
+  limit: z.number().min(1).max(50).default(12),
+  offset: z.number().optional(),
+});
+
+export type GetBeachesNearMeInput = z.infer<typeof GetBeachesNearMeInputSchema>;
+
+/**
  * Input schema for getBeachBySlug server function
  */
 export const GetBeachBySlugInputSchema = z.object({
@@ -82,6 +94,7 @@ export const BeachListItemSchema = z.object({
   primaryPhoto: PhotoSchema.nullable(),
   vibes: z.array(z.string()),
   isFavorite: z.boolean().optional(),
+  distance: z.number().optional(),
 });
 
 export type BeachListItem = z.infer<typeof BeachListItemSchema>;

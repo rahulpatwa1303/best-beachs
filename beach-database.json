@@ -798,29 +798,279 @@
         "romantic",
         "peaceful",
         "shallow",
-        "tropical"
+        "family-friendly"
       ],
       "bestMonths": [
+        5,
         6,
         7,
         8,
-        9
+        9,
+        10
       ],
       "activities": [
-        "sunset viewing",
-        "snorkeling",
         "wading",
-        "picnicking"
+        "snorkeling",
+        "sunset watching",
+        "cycling"
       ],
       "facilities": [
-        "restaurants",
-        "snack bars",
-        "shade trees"
+        "public restrooms",
+        "nearby snacks",
+        "parking"
       ],
       "crowdLevel": "moderate",
       "accessibility": "easy",
       "entryFee": "free",
       "fetchedAt": "2026-01-08T14:15:00.000Z"
+    },
+    {
+      "id": "radhanagar-beach",
+      "name": "Radhanagar Beach",
+      "country": "India",
+      "region": "Andaman and Nicobar Islands",
+      "coordinates": {
+        "lat": 11.9833,
+        "lon": 92.9500
+      },
+      "photos": [
+        {
+          "url": "https://images.unsplash.com/photo-1589135410978-c441d3a8147d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxSYWRoYW5hZ2FyJTIwQmVhY2h8ZW58MHwwfHx8MTc2Nzg1OTY3NHww&ixlib=rb-4.1.0&q=80&w=1080",
+          "thumbnail": "https://images.unsplash.com/photo-1589135410978-c441d3a8147d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxSYWRoYW5hZ2FyJTIwQmVhY2h8ZW58MHwwfHx8MTc2Nzg1OTY3NHww&ixlib=rb-4.1.0&q=80&w=400",
+          "photographer": "Tatiana Zhukova",
+          "photographerUrl": "https://unsplash.com/@tanya_zhukova"
+        }
+      ],
+      "description": "Voted as one of the best beaches in Asia, Radhanagar Beach on Havelock Island is a pristine stretch of white sand and turquoise water, backed by lush green forests. It's famous for its stunning sunsets and calm, clear waters.",
+      "shortDescription": "Asia's pristine paradise in the Andamans.",
+      "vibes": [
+        "pristine",
+        "serene",
+        "scenic",
+        "romantic"
+      ],
+      "bestMonths": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "activities": [
+        "swimming",
+        "sunbathing",
+        "photography",
+        "beach walking"
+      ],
+      "facilities": [
+        "changing rooms",
+        "showers",
+        "food stalls",
+        "parking"
+      ],
+      "crowdLevel": "moderate",
+      "accessibility": "easy",
+      "entryFee": "free",
+      "fetchedAt": "2026-01-13T18:56:32.000Z"
+    },
+    {
+      "id": "varkala-beach",
+      "name": "Varkala Beach",
+      "country": "India",
+      "region": "Kerala",
+      "coordinates": {
+        "lat": 8.7333,
+        "lon": 76.7000
+      },
+      "photos": [
+        {
+          "url": "https://images.unsplash.com/photo-1590523277543-a94d2e4eb00b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxWYXJrYWxhJTIwQmVhY2h8ZW58MHwwfHx8MTc2Nzg1OTY3NHww&ixlib=rb-4.1.0&q=80&w=1080",
+          "thumbnail": "https://images.unsplash.com/photo-1590523277543-a94d2e4eb00b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxWYXJrYWxhJTIwQmVhY2h8ZW58MHwwfHx8MTc2Nzg1OTY3NHww&ixlib=rb-4.1.0&q=80&w=400",
+          "photographer": "Sreenadh TC",
+          "photographerUrl": "https://unsplash.com/@sreenadhtc"
+        }
+      ],
+      "description": "Famous for its dramatic red cliffs overlooking the Arabian Sea, Varkala Beach is a unique destination in Kerala. The cliffs are dotted with cafes and shops, and the beach below is known for its natural springs and spiritual significance.",
+      "shortDescription": "Dramatic cliffs and spiritual springs in Kerala.",
+      "vibes": [
+        "spiritual",
+        "bohemian",
+        "dramatic",
+        "relaxed"
+      ],
+      "bestMonths": [
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "activities": [
+        "yoga",
+        "surfing",
+        "cliff walking",
+        "ayurvedic massage"
+      ],
+      "facilities": [
+        "cliff-side cafes",
+        "homestays",
+        "shops",
+        "restrooms"
+      ],
+      "crowdLevel": "moderate",
+      "accessibility": "easy",
+      "entryFee": "free",
+      "fetchedAt": "2026-01-13T18:56:32.000Z"
+    },
+    {
+      "id": "palolem-beach",
+      "name": "Palolem Beach",
+      "country": "India",
+      "region": "Goa",
+      "coordinates": {
+        "lat": 15.0100,
+        "lon": 74.0233
+      },
+      "photos": [
+        {
+          "url": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxQYWxvbGVtJTIwQmVhY2h8ZW58MHwwfHx8MTc2Nzg1OTY3NHww&ixlib=rb-4.1.0&q=80&w=1080",
+          "thumbnail": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxQYWxvbGVtJTIwQmVhY2h8ZW58MHwwfHx8MTc2Nzg1OTY3NHww&ixlib=rb-4.1.0&q=80&w=400",
+          "photographer": "Saurabh Sarkar",
+          "photographerUrl": "https://unsplash.com/@saurabhsarkar"
+        }
+      ],
+      "description": "A crescent-shaped beach in South Goa, Palolem is known for its calm waters and colorful wooden shacks. It's a favorite for those seeking a more laid-back and scenic experience compared to the busier beaches of North Goa.",
+      "shortDescription": "Crescent-shaped serenity in South Goa.",
+      "vibes": [
+        "laid-back",
+        "colorful",
+        "scenic",
+        "friendly"
+      ],
+      "bestMonths": [
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "activities": [
+        "kayaking",
+        "dolphin spotting",
+        "yoga",
+        "silent discos"
+      ],
+      "facilities": [
+        "beach shacks",
+        "restaurants",
+        "kayak rentals",
+        "shops"
+      ],
+      "crowdLevel": "moderate",
+      "accessibility": "easy",
+      "entryFee": "free",
+      "fetchedAt": "2026-01-13T18:56:32.000Z"
+    },
+    {
+      "id": "marina-beach",
+      "name": "Marina Beach",
+      "country": "India",
+      "region": "Tamil Nadu",
+      "coordinates": {
+        "lat": 13.0418,
+        "lon": 80.2850
+      },
+      "photos": [
+        {
+          "url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxNYXJpbmElMjBCZWFjaHxlbnwwfDB8fHwxNzY3ODU5Njc0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "thumbnail": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxNYXJpbmElMjBCZWFjaHxlbnwwfDB8fHwxNzY3ODU5Njc0fDA&ixlib=rb-4.1.0&q=80&w=400",
+          "photographer": "Karthik Sridhar",
+          "photographerUrl": "https://unsplash.com/@karthiksridhar"
+        }
+      ],
+      "description": "One of the longest urban beaches in the world, Marina Beach is the heart of Chennai. It's a vibrant hub of activity, especially in the evenings, with food stalls, amusement rides, and a bustling atmosphere.",
+      "shortDescription": "The world's second longest urban beach.",
+      "vibes": [
+        "vibrant",
+        "urban",
+        "crowded",
+        "cultural"
+      ],
+      "bestMonths": [
+        11,
+        12,
+        1,
+        2
+      ],
+      "activities": [
+        "walking",
+        "horse riding",
+        "kite flying",
+        "street food tasting"
+      ],
+      "facilities": [
+        "food stalls",
+        "amusement rides",
+        "parking",
+        "memorials"
+      ],
+      "crowdLevel": "very high",
+      "accessibility": "easy",
+      "entryFee": "free",
+      "fetchedAt": "2026-01-13T18:56:32.000Z"
+    },
+    {
+      "id": "puri-beach",
+      "name": "Puri Beach",
+      "country": "India",
+      "region": "Odisha",
+      "coordinates": {
+        "lat": 19.8133,
+        "lon": 85.8312
+      },
+      "photos": [
+        {
+          "url": "https://images.unsplash.com/photo-1626014303757-641744f9bc71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxQdXJpJTIwQmVhY2h8ZW58MHwwfHx8MTc2Nzg1OTY3NHww&ixlib=rb-4.1.0&q=80&w=1080",
+          "thumbnail": "https://images.unsplash.com/photo-1626014303757-641744f9bc71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NTQyOTN8MHwxfHNlYXJjaHwxfHxQdXJpJTIwQmVhY2h8ZW58MHwwfHx8MTc2Nzg1OTY3NHww&ixlib=rb-4.1.0&q=80&w=400",
+          "photographer": "Satyajeet Mazumdar",
+          "photographerUrl": "https://unsplash.com/@satyajeet_mazumdar"
+        }
+      ],
+      "description": "A sacred beach on the Bay of Bengal, Puri Beach is famous for its golden sands and the annual Rath Yatra festival. It's a popular pilgrimage site and also known for its sand art and vibrant beach markets.",
+      "shortDescription": "Golden sands and spiritual significance in Odisha.",
+      "vibes": [
+        "spiritual",
+        "golden",
+        "vibrant",
+        "cultural"
+      ],
+      "bestMonths": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "activities": [
+        "swimming",
+        "sand art viewing",
+        "shopping",
+        "temple visits"
+      ],
+      "facilities": [
+        "hotels",
+        "restaurants",
+        "beach markets",
+        "lifeguards"
+      ],
+      "crowdLevel": "high",
+      "accessibility": "easy",
+      "entryFee": "free",
+      "fetchedAt": "2026-01-13T18:56:32.000Z"
     },
     {
       "id": "seven-mile-beach",

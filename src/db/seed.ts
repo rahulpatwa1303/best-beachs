@@ -15,6 +15,10 @@ import postgres from "postgres";
 import { eq } from "drizzle-orm";
 import * as fs from "fs";
 import * as path from "path";
+import * as dotenv from "dotenv";
+
+// Load environment variables from .env file
+dotenv.config();
 
 import {
   beaches,
@@ -68,7 +72,7 @@ interface BeachDatabase {
 }
 
 async function seed() {
-  console.log("🏖️  Starting BeachSeeker database seeding...\n");
+  console.log("🏖️  Starting BeachAtlas database seeding...\n");
 
   // Get database URL
   const connectionString = process.env.DATABASE_URL;
@@ -85,26 +89,26 @@ async function seed() {
 
   try {
     // Read the beach database JSON file
-    const jsonPath = path.resolve(process.cwd(), "beach-database.json");
+    const fileName = process.argv[2] || "beach-database.json";
+    const jsonPath = path.resolve(process.cwd(), fileName);
 
     if (!fs.existsSync(jsonPath)) {
-      console.error(`❌ Could not find beach-database.json at ${jsonPath}`);
+      console.error(`❌ Could not find JSON file at ${jsonPath}`);
       process.exit(1);
     }
 
     const rawData = fs.readFileSync(jsonPath, "utf-8");
-    const data: BeachDatabase = JSON.parse(rawData);
+    const data: any = JSON.parse(rawData);
+    const beachesToProcess = data.beaches || data; // Handle both formats
 
-    console.log(`📊 Found ${data.beaches.length} beaches in the database file`);
-    console.log(`   Generated at: ${data.metadata.generatedAt}`);
-    console.log(`   Version: ${data.metadata.version}\n`);
+    console.log(`📊 Found ${beachesToProcess.length} beaches in ${fileName}`);
 
     let inserted = 0;
     let skipped = 0;
     let errors = 0;
 
     // Process each beach
-    for (const beachData of data.beaches) {
+    for (const beachData of beachesToProcess) {
       const slug = beachData.id; // The id in JSON is used as slug
 
       try {
@@ -160,7 +164,7 @@ async function seed() {
           // 2. Insert photos
           if (beachData.photos && beachData.photos.length > 0) {
             await tx.insert(photos).values(
-              beachData.photos.map((photo) => ({
+              beachData.photos.map((photo: any) => ({
                 beachId,
                 url: photo.url,
                 thumbnail: photo.thumbnail || null,
@@ -173,7 +177,7 @@ async function seed() {
           // 3. Insert activities
           if (beachData.activities && beachData.activities.length > 0) {
             await tx.insert(activities).values(
-              beachData.activities.map((name) => ({
+              beachData.activities.map((name: string) => ({
                 beachId,
                 name,
               }))
@@ -183,7 +187,7 @@ async function seed() {
           // 4. Insert vibes
           if (beachData.vibes && beachData.vibes.length > 0) {
             await tx.insert(vibes).values(
-              beachData.vibes.map((name) => ({
+              beachData.vibes.map((name: string) => ({
                 beachId,
                 name,
               }))
@@ -193,7 +197,7 @@ async function seed() {
           // 5. Insert facilities
           if (beachData.facilities && beachData.facilities.length > 0) {
             await tx.insert(facilities).values(
-              beachData.facilities.map((name) => ({
+              beachData.facilities.map((name: string) => ({
                 beachId,
                 name,
               }))
@@ -203,7 +207,7 @@ async function seed() {
           // 6. Insert best months
           if (beachData.bestMonths && beachData.bestMonths.length > 0) {
             await tx.insert(bestMonths).values(
-              beachData.bestMonths.map((month) => ({
+              beachData.bestMonths.map((month: number) => ({
                 beachId,
                 month,
               }))

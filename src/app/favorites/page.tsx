@@ -15,13 +15,11 @@ export default async function Favorites() {
       {/* Header */}
       <header className="border-b bg-white dark:bg-slate-950 dark:border-slate-800">
         <div className="container mx-auto flex h-20 items-center justify-between px-4">
-          <Link href="/" className="flex items-center gap-1.5 text-rose-500">
-            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-rose-500 text-white">
-              <Search className="h-5 w-5" />
-            </div>
-            <span className="text-xl font-bold tracking-tight dark:text-white">beachseeker</span>
+          <Link href="/" className="flex items-center gap-2 text-rose-500">
+            <img src="/beachatlas-logo.svg" alt="BeachAtlas" className="h-10 w-10" />
+            <span className="text-xl font-bold tracking-tight dark:text-white">BeachAtlas</span>
           </Link>
-          
+
           <div className="flex items-center gap-4">
             <ThemeToggle />
             <Link href="/" className="flex items-center gap-2 text-sm font-medium text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white">

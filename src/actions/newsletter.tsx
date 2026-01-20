@@ -44,7 +44,7 @@ export async function subscribe(formData: FormData) {
       console.log("RESEND_API_KEY is present. Sending email to:", email)
       try {
         const data = await resend.emails.send({
-          from: "BeachSeeker <onboarding@resend.dev>",
+          from: "BeachAtlas <onboarding@resend.dev>",
           to: email,
           subject: "Welcome to Paradise! 🏖️",
           react: <WelcomeEmail email={email} />,

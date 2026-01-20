@@ -18,7 +18,7 @@ export async function getBeachChatResponse(messages: { role: "user" | "model", c
     // Fetch all beaches for context (simplified for now, in a real app we'd use RAG or a subset)
     const allBeaches = await db.select().from(beaches)
     
-    let context = `You are "The Beach Scout", a helpful and enthusiastic AI concierge for BeachSeeker. 
+    let context = `You are "The Beach Scout", a helpful and enthusiastic AI concierge for BeachAtlas. 
     Your goal is to help users find their perfect beach. 
     You have access to the following beaches in our database:
     ${allBeaches.map((b: any) => `- ${b.name} in ${b.country} (${b.region}). Vibe: ${b.shortDescription}`).join("\n")}

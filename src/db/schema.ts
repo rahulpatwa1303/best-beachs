@@ -42,6 +42,7 @@ export const beaches = pgTable(
 
 export const beachRelations = relations(beaches, ({ many }) => ({
   photos: many(photos),
+  videos: many(videos),
   activities: many(activities),
   vibes: many(vibes),
   facilities: many(facilities),
@@ -67,6 +68,26 @@ export const photos = pgTable("photos", {
 export const photoRelations = relations(photos, ({ one }) => ({
   beach: one(beaches, {
     fields: [photos.beachId],
+    references: [beaches.id],
+  }),
+}));
+
+// ============================================================================
+// VIDEOS TABLE - Beach videos
+// ============================================================================
+export const videos = pgTable("videos", {
+  id: uuid("id").primaryKey().defaultRandom(),
+  beachId: uuid("beach_id")
+    .notNull()
+    .references(() => beaches.id, { onDelete: "cascade" }),
+  url: text("url").notNull(),
+  thumbnail: text("thumbnail"),
+  createdAt: timestamp("created_at").defaultNow().notNull(),
+});
+
+export const videoRelations = relations(videos, ({ one }) => ({
+  beach: one(beaches, {
+    fields: [videos.beachId],
     references: [beaches.id],
   }),
 }));
@@ -178,6 +199,8 @@ export type Beach = typeof beaches.$inferSelect;
 export type NewBeach = typeof beaches.$inferInsert;
 export type Photo = typeof photos.$inferSelect;
 export type NewPhoto = typeof photos.$inferInsert;
+export type Video = typeof videos.$inferSelect;
+export type NewVideo = typeof videos.$inferInsert;
 export type Activity = typeof activities.$inferSelect;
 export type NewActivity = typeof activities.$inferInsert;
 export type Vibe = typeof vibes.$inferSelect;

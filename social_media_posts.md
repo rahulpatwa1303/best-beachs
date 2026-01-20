@@ -1,6 +1,6 @@
-# Social Media Posts for BeachSeeker 🏖️
+# Social Media Posts for BeachAtlas 🏖️
 
-Tailored content to spread the word about BeachSeeker across different platforms.
+Tailored content to spread the word about BeachAtlas across different platforms.
 
 ---
 
@@ -8,12 +8,14 @@ Tailored content to spread the word about BeachSeeker across different platforms
 **Option 1: The "Just for Fun" Angle**
 > I built a thing! 🏖️
 > 
-> What started as a "just for fun" project to level up my skills turned into BeachSeeker—a minimalist, AI-powered way to find your next paradise.
+> What started as a "just for fun" project to level up my skills turned into BeachAtlas—a minimalist, AI-powered way to find your next paradise.
 > 
 > Features:
 > ✨ AI Vibe Check
-> 📊 Crowd Levels
-> 🎨 Airbnb-inspired UI
+📍 NEW: Beach Near Me
+📊 Crowd Levels
+🎨 Airbnb-inspired UI
+🌏 Expanded Database (Now with Indian Beaches!)
 > 
 > Check it out: [Link]
 > 
@@ -22,7 +24,7 @@ Tailored content to spread the word about BeachSeeker across different platforms
 **Option 2: Feature Highlight**
 > Stop guessing the "vibe" of your next beach trip. 🤖🏖️
 > 
-> I integrated Google Gemini into BeachSeeker to give you an AI-powered "Vibe Check" for every beach. 
+> I integrated Google Gemini into BeachAtlas to give you an AI-powered "Vibe Check" for every beach. 
 > 
 > Built with #NextJS, #DrizzleORM, and #TailwindCSS.
 > 
@@ -33,9 +35,9 @@ Tailored content to spread the word about BeachSeeker across different platforms
 ---
 
 ## 💼 LinkedIn
-**Headline: From Passion Project to Full-Stack Reality: Introducing BeachSeeker**
+**Headline: From Passion Project to Full-Stack Reality: Introducing BeachAtlas**
 
-> I’m excited to share a project I’ve been working on: **BeachSeeker**. 🏖️
+> I’m excited to share a project I’ve been working on: **BeachAtlas**. 🏖️
 > 
 > This project began as a way for me to experiment with modern web technologies and push my skills in full-stack development. I wanted to create something that wasn't just functional, but also visually premium and user-centric.
 > 
@@ -49,7 +51,7 @@ Tailored content to spread the word about BeachSeeker across different platforms
 > 
 > I’d love to get your feedback on the UI/UX and the AI features. Check it out here: [Link]
 > 
-> #FullStack #NextJS #WebDevelopment #AI #ProductDesign #BeachSeeker
+> #FullStack #NextJS #WebDevelopment #AI #ProductDesign #BeachAtlas
 
 ---
 
@@ -57,7 +59,7 @@ Tailored content to spread the word about BeachSeeker across different platforms
 **Caption:**
 > Dreaming of the perfect beach? 🌊✨
 > 
-> I built BeachSeeker to help you find your next escape with ease. From AI-powered "Vibe Checks" to detailed crowd insights, it’s everything you need to plan your next sun-soaked adventure.
+> I built BeachAtlas to help you find your next escape with ease. From AI-powered "Vibe Checks" to detailed crowd insights, it’s everything you need to plan your next sun-soaked adventure.
 > 
 > 🛠️ Built for fun, designed for discovery.
 > 

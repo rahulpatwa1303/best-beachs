@@ -27,8 +27,10 @@ import {
   Tent,
   Utensils,
   Map,
-  X
+  X,
+  MapPin
 } from 'lucide-react'
+import { NearMeButton } from './NearMeButton'
 import { Button } from '@/components/ui/button'
 import { ScrollArea, ScrollBar } from '@/components/ui/scroll-area'
 import {
@@ -99,7 +101,10 @@ export function FilterBar({ options }: FilterBarProps) {
   const handleFilter = (key: string, value: string | null) => {
     const params = new URLSearchParams(searchParams.toString())
     
-    if (!value || params.get(key) === value) {
+    if (key === 'nearMe') {
+      params.delete('lat')
+      params.delete('lon')
+    } else if (!value || params.get(key) === value) {
       params.delete(key)
     } else {
       params.set(key, value)
@@ -120,6 +125,7 @@ export function FilterBar({ options }: FilterBarProps) {
     { key: 'activity', value: currentActivity, label: 'Activity' },
     { key: 'crowd', value: currentCrowd, label: 'Crowd' },
     { key: 'accessibility', value: currentAccessibility, label: 'Accessibility' },
+    { key: 'nearMe', value: (searchParams.has('lat') && searchParams.has('lon')) ? 'Active' : null, label: 'Near Me' },
   ].filter(f => f.value)
 
   return (
@@ -174,6 +180,7 @@ export function FilterBar({ options }: FilterBarProps) {
 
           {/* Filter Trigger */}
           <div className="flex items-center gap-2">
+            <NearMeButton />
             <Dialog>
               <DialogTrigger asChild>
                 <Button variant="outline" size="sm" className="h-10 gap-2 rounded-xl border-slate-200 dark:border-slate-800 px-4 text-xs font-medium shadow-none hover:bg-slate-50 dark:hover:bg-slate-900">
@@ -199,7 +206,7 @@ export function FilterBar({ options }: FilterBarProps) {
                     <section className="space-y-4">
                       <h4 className="text-lg font-semibold dark:text-white">Country</h4>
                       <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
-                        {countries.map((country) => (
+                        {countries.filter(c => c && c.trim() !== "").map((country) => (
                           <button
                             key={country}
                             onClick={() => handleFilter('country', country)}
@@ -222,7 +229,7 @@ export function FilterBar({ options }: FilterBarProps) {
                     <section className="space-y-4">
                       <h4 className="text-lg font-semibold dark:text-white">Atmosphere & Vibe</h4>
                       <div className="flex flex-wrap gap-2">
-                        {vibes.map((vibe) => (
+                        {vibes.filter(v => v && v.trim() !== "").map((vibe) => (
                           <button
                             key={vibe}
                             onClick={() => handleFilter('vibe', vibe)}

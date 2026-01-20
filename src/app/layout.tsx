@@ -13,35 +13,42 @@ const geistSans = Inter({ subsets: ["latin"], variable: "--font-geist-sans" }); 
 
 export const metadata: Metadata = {
   title: {
-    default: "BeachSeeker | Find Your Perfect Paradise",
-    template: "%s | BeachSeeker",
+    default: "BeachAtlas | AI-Powered Beach Discovery",
+    template: "%s | BeachAtlas",
   },
-  description: "Discover the world's most beautiful beaches. Filter by vibe, activities, and more to find your perfect coastal getaway.",
-  keywords: ["beaches", "travel", "vacation", "coastal", "paradise", "beach finder"],
-  authors: [{ name: "BeachSeeker Team" }],
-  creator: "BeachSeeker Team",
+  description: "Discover the world's most beautiful beaches with AI-powered recommendations. Filter by vibe, activities, and more to find your perfect coastal getaway.",
+  keywords: ["beaches", "travel", "vacation", "coastal", "paradise", "beach finder", "AI travel", "beach discovery"],
+  authors: [{ name: "BeachAtlas Team" }],
+  creator: "BeachAtlas",
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/beachatlas-logo.svg", type: "image/svg+xml" },
+    ],
+    apple: "/apple-touch-icon.png",
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://best-beachs.vercel.app/",
-    siteName: "BeachSeeker",
-    title: "BeachSeeker | Find Your Perfect Paradise",
-    description: "Discover the world's most beautiful beaches. Filter by vibe, activities, and more to find your perfect coastal getaway.",
+    siteName: "BeachAtlas",
+    title: "BeachAtlas | AI-Powered Beach Discovery",
+    description: "Discover the world's most beautiful beaches with AI-powered recommendations. Filter by vibe, activities, and more to find your perfect coastal getaway.",
     images: [
       {
         url: "https://best-beachs.vercel.app/og-image.png",
         width: 1200,
         height: 630,
-        alt: "BeachSeeker - Find your paradise",
+        alt: "BeachAtlas - AI-Powered Beach Discovery",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "BeachSeeker | Find Your Perfect Paradise",
-    description: "Discover the world's most beautiful beaches. Filter by vibe, activities, and more to find your perfect coastal getaway.",
+    title: "BeachAtlas | AI-Powered Beach Discovery",
+    description: "Discover the world's most beautiful beaches with AI-powered recommendations.",
     images: ["https://best-beachs.vercel.app/og-image.png"],
-    creator: "@beachseeker",
+    creator: "@beachatlas",
   },
   robots: {
     index: true,
@@ -57,6 +64,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
+        suppressHydrationWarning
         className={cn(
           "min-h-screen bg-background font-sans antialiased",
           inter.variable,

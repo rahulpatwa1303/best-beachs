@@ -1,6 +1,6 @@
-# Deployment Guide for BeachSeeker 🚀
+# Deployment Guide for BeachAtlas 🚀
 
-BeachSeeker is ready for the world! Since it's built with Next.js, the easiest and most powerful way to deploy it is via **Vercel**.
+BeachAtlas is ready for the world! Since it's built with Next.js, the easiest and most powerful way to deploy it is via **Vercel**.
 
 ## Prerequisites
 

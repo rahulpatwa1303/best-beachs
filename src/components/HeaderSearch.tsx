@@ -54,7 +54,7 @@ export function HeaderSearch({ countries, vibes }: HeaderSearchProps) {
               </SelectTrigger>
               <SelectContent className="dark:bg-slate-950 dark:border-slate-800">
                 <SelectItem value="all">All Locations</SelectItem>
-                {countries.map((country) => (
+                {countries.filter(c => c && c.trim() !== "").map((country) => (
                   <SelectItem key={country} value={country}>
                     {country}
                   </SelectItem>
@@ -81,7 +81,7 @@ export function HeaderSearch({ countries, vibes }: HeaderSearchProps) {
               </SelectTrigger>
               <SelectContent className="dark:bg-slate-950 dark:border-slate-800">
                 <SelectItem value="all">All Vibes</SelectItem>
-                {vibes.map((vibe) => (
+                {vibes.filter(v => v && v.trim() !== "").map((vibe) => (
                   <SelectItem key={vibe} value={vibe}>
                     {vibe}
                   </SelectItem>

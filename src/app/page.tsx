@@ -1,4 +1,4 @@
-import { getBeaches, getFilterOptions } from "@/actions/beaches"
+import { getBeaches, getBeachesNearMe, getFilterOptions } from "@/actions/beaches"
 import { BeachCard } from "@/components/BeachCard"
 import { FilterBar } from "@/components/FilterBar"
 import { Button } from "@/components/ui/button"
@@ -7,6 +7,9 @@ import Link from "next/link"
 import { ThemeToggle } from "@/components/ThemeToggle"
 import { HeaderSearch } from "@/components/HeaderSearch"
 import { Newsletter } from "@/components/Newsletter"
+import { Suspense } from "react"
+import { InfiniteBeachList } from "@/components/InfiniteBeachList"
+import Image from "next/image"
 
 export const dynamic = 'force-dynamic'
 
@@ -21,9 +24,13 @@ export default async function Home({
   const activity = typeof params.activity === 'string' ? params.activity : undefined
   const crowd = typeof params.crowd === 'string' ? params.crowd : undefined
   const accessibility = typeof params.accessibility === 'string' ? params.accessibility : undefined
-  
+  const lat = typeof params.lat === 'string' ? parseFloat(params.lat) : undefined
+  const lon = typeof params.lon === 'string' ? parseFloat(params.lon) : undefined
+
   const [beachesData, filterOptions] = await Promise.all([
-    getBeaches({ country, vibe, activity, crowd, accessibility, limit: 20 }),
+    lat !== undefined && lon !== undefined
+      ? getBeachesNearMe({ lat, lon, limit: 20 })
+      : getBeaches({ country, vibe, activity, crowd, accessibility, limit: 20 }),
     getFilterOptions()
   ])
 
@@ -33,24 +40,24 @@ export default async function Home({
       <header className="border-b bg-white dark:bg-slate-950 dark:border-slate-800">
         <div className="container mx-auto flex h-20 items-center justify-between px-4">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-1.5 text-rose-500">
-            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-rose-500 text-white">
-              <Search className="h-5 w-5" />
-            </div>
-            <span className="text-xl font-bold tracking-tight dark:text-white">beachseeker</span>
+          <Link href="/" className="flex items-center gap-2 text-rose-500">
+            <img src="/beachatlas-logo.svg" alt="BeachAtlas" className="h-10 w-10" />
+            <span className="text-xl font-bold tracking-tight dark:text-white">BeachAtlas</span>
           </Link>
 
           {/* Search Bar (Redesigned & Functional) */}
-          <HeaderSearch 
-            countries={filterOptions.countries} 
-            vibes={filterOptions.vibes} 
-          />
+          <Suspense fallback={<div className="h-12 w-full max-w-md animate-pulse rounded-full bg-slate-100 dark:bg-slate-900" />}>
+            <HeaderSearch
+              countries={filterOptions.countries}
+              vibes={filterOptions.vibes}
+            />
+          </Suspense>
 
           {/* User Menu & Theme Toggle */}
           <div className="flex items-center gap-2 sm:gap-3">
             <ThemeToggle />
-            <Link 
-              href="/favorites" 
+            <Link
+              href="/favorites"
               className="flex h-10 w-10 items-center justify-center rounded-full text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-900 sm:w-auto sm:px-3 sm:py-2 sm:rounded-lg sm:hover:bg-slate-100 transition-colors group"
             >
               <Heart className="h-5 w-5 sm:hidden group-hover:text-rose-500 transition-colors" />
@@ -66,7 +73,9 @@ export default async function Home({
       </header>
 
       {/* Filter Bar */}
-      <FilterBar options={filterOptions} />
+      <Suspense fallback={<div className="h-20 w-full animate-pulse bg-slate-50 dark:bg-slate-900" />}>
+        <FilterBar options={filterOptions} />
+      </Suspense>
 
       {/* Main Content */}
       <main className="container mx-auto px-4 py-8">
@@ -84,21 +93,30 @@ export default async function Home({
             </Button>
           </div>
         ) : (
-          <div className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5">
-            {beachesData.beaches.map((beach) => (
-              <BeachCard key={beach.id} beach={beach} />
-            ))}
-          </div>
+          <InfiniteBeachList
+            initialBeaches={beachesData.beaches}
+            initialHasMore={beachesData.hasMore}
+            initialNextCursor={beachesData.nextCursor}
+            searchParams={{
+              country,
+              vibe,
+              activity,
+              crowd,
+              accessibility,
+              lat,
+              lon
+            }}
+          />
         )}
         <div className="container mx-auto px-4 mt-20">
-        {/* <Newsletter /> */}
-      </div>
-    </main>
+          {/* <Newsletter /> */}
+        </div>
+      </main>
 
       {/* Footer (Simple) */}
       <footer className="mt-12 border-t bg-slate-50 dark:bg-slate-950 dark:border-slate-800 py-12">
         <div className="container mx-auto px-4 text-center text-sm text-slate-500 dark:text-slate-400">
-          <p>© 2026 BeachSeeker.</p>
+          <p>© 2026 BeachAtlas.</p>
         </div>
       </footer>
     </div>

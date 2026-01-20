@@ -2,7 +2,7 @@
 
 import { db } from "@/db"
 import { beaches, photos, vibes, activities, favorites, facilities, bestMonths } from "@/db/schema"
-import { GetBeachesInputSchema, GetBeachesResponse, GetBeachBySlugResponse, FilterOptions } from "@/lib/schemas"
+import { GetBeachesInputSchema, GetBeachesResponse, GetBeachBySlugResponse, FilterOptions, GetBeachesNearMeInputSchema } from "@/lib/schemas"
 import { eq, and, sql, desc, inArray } from "drizzle-orm"
 import { cookies } from "next/headers"
 
@@ -110,6 +110,58 @@ export async function getBeaches(input: any): Promise<GetBeachesResponse> {
     beaches: enrichedBeaches as any,
     nextCursor,
     hasMore: !!nextCursor
+  }
+}
+
+export async function getBeachesNearMe(input: any): Promise<GetBeachesResponse> {
+  const { lat, lon, limit, offset = 0 } = GetBeachesNearMeInputSchema.parse(input)
+  const sessionId = await getSessionId()
+
+  // Haversine formula in SQL to calculate distance
+  const distanceSql = sql`6371 * acos(
+    cos(radians(${lat})) * cos(radians(${beaches.lat})) * 
+    cos(radians(${beaches.lon}) - radians(${lon})) + 
+    sin(radians(${lat})) * sin(radians(${beaches.lat}))
+  )`
+
+  const result = await db
+    .select({
+      beach: beaches,
+      distance: distanceSql,
+    })
+    .from(beaches)
+    .orderBy(distanceSql)
+    .limit(limit + 1)
+    .offset(offset)
+
+  let hasMore = false
+  if (result.length > limit) {
+    hasMore = true
+    result.pop()
+  }
+
+  const enrichedBeaches = await Promise.all(result.map(async (row: any) => {
+    const beach = row.beach
+    const [beachPhotos, beachVibes, beachFav] = await Promise.all([
+      db.select().from(photos).where(eq(photos.beachId, beach.id)).limit(1),
+      db.select().from(vibes).where(eq(vibes.beachId, beach.id)),
+      sessionId ? db.select().from(favorites).where(and(eq(favorites.beachId, beach.id), eq(favorites.sessionId, sessionId))) : []
+    ])
+
+    return {
+      ...(beach as any),
+      coordinates: { lat: (beach as any).lat || 0, lon: (beach as any).lon || 0 },
+      primaryPhoto: beachPhotos[0] || null,
+      vibes: beachVibes.map((v: any) => v.name),
+      isFavorite: beachFav.length > 0,
+      distance: Math.round(row.distance * 10) / 10 // Round to 1 decimal place
+    }
+  }))
+
+  return {
+    beaches: enrichedBeaches as any,
+    nextCursor: hasMore ? (offset + limit).toString() : null,
+    hasMore
   }
 }
 
